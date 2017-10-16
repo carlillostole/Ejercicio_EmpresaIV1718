@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html> 
+</head>
+	<body>
+
+		<header>
+			    
+			    <title> Ejercicio IV. Calificación Prácticas en Empresa </title>
+			   
+		</header>
+
+	<div>	
+
+		
+			<h2> Calificacion Practicas en Empresa</h2>
+
+			<form method="post" action="/registrar" name="formulario">
+			<table>				
+				<tr>
+					<td> Nombre de Empresa: </td>
+					<td><input type="Text" name="empresa"> </td>
+				</tr>	
+				<tr>
+					<td>Nombre: </td>
+					<td><input type="Text" name="nombre"></td>
+				</tr>
+				<tr>
+					<td>Fecha: </td>
+					<input type = "date" id = "date" name = "Fecha">
+				</tr>
+				<tr>
+					<td>Nota: </td>
+					<td><input type="Text" name="nota"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="Submit" name="enviar" value="Insertar Datos"></td>
+				</tr>
+				<tr>
+					<td><input type="Submit" name="enviar" value="Buscar Datos Alumno:"></td>
+					<td><input type="Text" name="alumno"></td></td>
+				</tr>		 	
+			</table>
+			
+					
+			</form>
+
+
+	
+
+
+
+	</div>
+
+</body>
+</html>

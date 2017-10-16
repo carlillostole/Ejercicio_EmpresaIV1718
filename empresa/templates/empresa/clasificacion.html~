@@ -1,0 +1,7 @@
+{% extends 'empresa/base.html' %}
+
+{% if latest_question_list %}
+    {{latest_question_list }}
+{% else %}
+    <p>No polls are available.</p>
+{% endif %}

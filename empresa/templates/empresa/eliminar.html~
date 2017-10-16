@@ -1,0 +1,11 @@
+{% extends 'empresa/base.html' %}
+
+{% block content %}
+    <h1>Nueva empresa</h1>
+    <form method="POST" class="post-form">{% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="save btn btn-default">Save</button>
+	<button type="submit" class=""><a href="clasificacion">Clasificación</a></button>
+	<button type="submit" class=""><a href="eliminar">Eliminar empresa</a></button>
+    </form>
+{% endblock %}
